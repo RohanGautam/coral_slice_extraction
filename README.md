@@ -1,6 +1,10 @@
 # Coral Slice Extraction
 
-A Python tool for extracting and analyzing profiles from 3D point cloud data of coral structures.
+A Python tool for extracting and analyzing profiles from 3D point cloud data of coral microatolls.
+
+<p align="center">
+  <img src="imgs/image.png" alt="Coral slice extraction">
+</p>
 
 ## Installation
 
