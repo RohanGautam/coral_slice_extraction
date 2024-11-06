@@ -10,6 +10,11 @@ A Python tool for extracting and analyzing profiles from 3D point cloud data of 
 
 1. Clone the repository:
 
+```
+git clone https://github.com/RohanGautam/coral_slice_extraction.git
+cd coral_slice_extraction
+```
+
 2. Create a new conda environment:
 
 ```bash
