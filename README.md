@@ -20,7 +20,7 @@ conda activate coral-profile
 3. Install required packages:
 
 ```bash
-pip install open3d numpy matplotlib pandas jupyter
+pip install open3d numpy matplotlib pandas jupyter openpyxl
 ```
 
 ## Project structure
@@ -42,29 +42,9 @@ pip install open3d numpy matplotlib pandas jupyter
 jupyter notebook # or open in vscode and select appropriate kernel
 ```
 
-4. Run the notebook cells sequentially to:
-   - Load the point cloud
-   - Set the center point
-   - Extract profiles at specified angles
-   - Generate visualizations
-   - Export profile data to CSV
-
-## Common Issues
-
-1. If you encounter the GLFW error: "Cocoa: Failed to find service port for display", try restarting VSCode or your Jupyter kernel. This sometimes happens during open3d visualisation.
-
-2. If the slice box is not visible in the scene, try adjusting the `hyp` parameter in the `get_point_theta()` function call.
-
-## Parameters
-
-- `center`: Coordinates for the center of the point cloud from which the slice starts, going radially outward.
-- `hyp`: Controls the length of the slice
-- `theta_rad`: Controls the thickness of the slice
-- `angles_degree`: Array of angles at which to extract profiles
-
 ## Output
 
 The script generates:
 
-- CSV files containing profile data in the `out/` directory
+- CSV files containing profile data in the `out/` directory (a sample one is included)
 - Scatter plot visualizations of the extracted profiles, in the notebook
