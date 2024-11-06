@@ -3,7 +3,7 @@
 A Python tool for extracting and analyzing profiles from 3D point cloud data of coral microatolls.
 
 <p align="center">
-  <img src="imgs/image.png" alt="Coral slice extraction">
+  <img src="imgs/image.png" alt="Coral slice extraction" width="400">
 </p>
 
 ## Installation
